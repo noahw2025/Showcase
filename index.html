@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="styles.css" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Your Name | Home</title>
@@ -22,8 +21,7 @@
     <div class="container">
       <!-- Brand/Logo -->
       <a class="navbar-brand fw-bold" href="index.html">YourName</a>
-
-      <!-- Toggler button (for mobile) -->
+      <!-- Toggler (mobile) -->
       <button
         class="navbar-toggler"
         type="button"
@@ -35,15 +33,14 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <!-- Navbar links -->
+      <!-- Navbar Links -->
       <div class="collapse navbar-collapse" id="mainNavbar">
         <ul class="navbar-nav ms-auto">
           <!-- Home Link -->
           <li class="nav-item">
             <a class="nav-link active" href="index.html">Home</a>
           </li>
-          <!-- Dropdown Menu for Projects -->
+          <!-- Dropdown for Projects -->
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -57,7 +54,10 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
               <li><a class="dropdown-item" href="projects.html">All Projects</a></li>
-              <!-- Add sub-project links here if you create separate pages for each project -->
+              <li><a class="dropdown-item" href="mica-clean-air.html">Mica Clean Air</a></li>
+              <li><a class="dropdown-item" href="eth-mining-rig.html">Ethereum Mining Rig</a></li>
+              <li><a class="dropdown-item" href="helium-iot.html">Helium IoT Mass Deployment</a></li>
+              <li><a class="dropdown-item" href="ai-pipeline.html">AI Pipeline Projects</a></li>
             </ul>
           </li>
           <!-- Contact Link -->
@@ -70,31 +70,28 @@
   </nav>
   <!-- ======== END NAVBAR ======== -->
 
-  <!-- ======== HERO / INTRO SECTION ======== -->
+  <!-- ======== HERO SECTION ======== -->
   <header class="bg-light py-5">
     <div class="container text-center">
       <h1 class="display-4 fw-bold">Welcome to My Portfolio</h1>
       <p class="lead text-secondary">
-        I’m <strong>Your Name</strong> — a [developer, maker, data scientist, etc.]  
-        with a passion for building impactful projects.
+        I’m <strong>Your Name</strong> — a [developer, engineer, etc.] with a passion for building impactful projects.
       </p>
       <a href="projects.html" class="btn btn-primary btn-lg mt-3">View My Projects</a>
     </div>
   </header>
-  <!-- ======== END HERO ======== -->
+  <!-- ======== END HERO SECTION ======== -->
 
   <!-- ======== ABOUT SECTION ======== -->
   <section class="py-5">
     <div class="container">
       <h2>About Me</h2>
       <p class="text-muted">
-        This is where you give an introduction about who you are, your background, 
-        and maybe how you got into these projects.
+        Write a brief introduction about yourself here. For instance, mention your professional background, what drives you, and any notable achievements or experiences.
       </p>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed diam eget 
-        arcu fermentum iaculis. Cras eu augue mollis, sagittis augue et, pulvinar purus. 
-        <em>Feel free to expand, add images, or any other sections you need.</em>
+        arcu fermentum iaculis. Cras eu augue mollis, sagittis augue et, pulvinar purus.
       </p>
     </div>
   </section>
@@ -117,7 +114,7 @@
   ></script>
   <!-- Custom Script -->
   <script>
-    // Dynamically set the year in the footer
+    // Dynamically set the year
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
